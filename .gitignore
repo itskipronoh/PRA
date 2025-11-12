@@ -1,0 +1,105 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+caravel/vendor
+caravel/node_modules
+
+# Build directories
+build
+build-ssr
+.cache
+.cache-ssr
+.astro
+.astro-test     
+.astro-test-ssr
+cache
+.astro/cache
+.astro/cache-ssr
+
+node_modules
+dist
+dist-ssr
+*.local
+
+.turbo
+# Temporary files
+
+tmp 
+temp
+*.tmp
+*.temp  
+*.bak
+*.swp
+*.swo
+*~
+# IDE files
+.vscode/
+.idea/      
+# System files
+.DS_Store
+Thumbs.db   
+# Compiled output
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+# Package files
+*.7z
+*.dmg
+*.gz
+*.iso   
+
+*.jar   
+*.rar
+*.tar   
+*.zip
+*.tgz
+# Backup files
+*.bak
+*.old
+*.orig
+# Coverage directory
+coverage
+coverage-ssr
+# Test output
+test-output
+test-output-ssr
+# Storybook build outputs
+storybook-static
+storybook-ssr-static
+# Yarn Integrity file
+.yarn-integrity
+# dotenv environment variable files
+
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+.env
+.env.test
+.env.production
+.env.local
+.env.*.local
+
+# Mac system files
+.DS_Store
+# Thumbnails
+._*
+.Spotlight-V100
